@@ -1,0 +1,17 @@
+export const MESSAGE = {
+  INVALID_CREDENTIALS: 'Invalid Credentials',
+  INTERNAL_ERROR: 'Internal error',
+  BAD_REQUEST: 'Bad Request',
+  NOT_FOUND: 'Not Found',
+  PERMISSION_DENIED: 'Permission denied',
+  ENTRY_NOT_EXISTS: 'Entry do not exists',
+  TOKEN_NOT_VALID: 'Token is not valid',
+  TOKEN_EXPIRED: 'Token is expired',
+  NO_DATA_AVAILABLE: 'No data available',
+  INVALID_ACCESS_TOKEN: 'Invalid access token',
+  ACCESS_TOKEN_INVALID: 'Access token invalid',
+  AUTHENTICATION_FAILURE: 'Authentication Failure',
+  BAD_PARAMETERS: 'Bad Parameters',
+  FORBIDDEN: 'Forbidden',
+  NO_CONTENT: 'No Content',
+};

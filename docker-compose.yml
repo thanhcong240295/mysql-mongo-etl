@@ -1,0 +1,15 @@
+version: '3.4'
+services:
+  mysql-mongodb-etl:
+    container_name: mysql-mongodb-etl
+    restart: unless-stopped
+    build: .
+    ports:
+      - 83:$PORT
+    env_file: ./.env
+    networks:
+      - maon_network
+
+networks:
+  maon_network:
+    name: maon_network
